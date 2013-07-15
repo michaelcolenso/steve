@@ -1,6 +1,7 @@
 {
   "name": "stevetube",
   "version": "0.0.1",
+  "description": "an express app that scrapes the front page of youtube and displays the videos.",
   "private": false,
   "scripts": {
     "start": "node app.js"
@@ -10,5 +11,26 @@
     "jade": "*",
     "jsdom": "~0.6.5",
     "request": "~2.21.0"
+  },
+  "readmeFilename": "readme.md",
+  "gitHead": "082c916f21f0971a439d6928b02423f334b39766",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelcolenso/steve.git"
+  },
+  "keywords": [
+    "youtube",
+    "scraper",
+    "popular",
+    "videos",
+    "express",
+    "steve"
+  ],
+  "author": "michaelcolenso",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/michaelcolenso/steve/issues"
   }
 }
